@@ -1,0 +1,52 @@
+ml,
+ body {
+   padding: 10 10 10 10;
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   text-align: center;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+ main {
+   flex: 1;
+   display: flex;
+   color: #125d91;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ code {
+   color: #f8fafc;
+   background: #add5f1;
+   border-radius: 5px;
+   padding: 0.75rem;
+   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+ }
+
+ .container {
+   padding: 1% 1% 1% 1%;
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   overflow-x: auto;
+ }
+
+ .playerHistoryPanel {
+   padding: 0 1% 0% 1%;
+ }
+section img {
+  width: 90%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.bg-active {
+  background-color: white;
+}
